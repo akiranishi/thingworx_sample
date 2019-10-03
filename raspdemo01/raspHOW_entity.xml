@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Entities build="b535" majorVersion="8" minorVersion="3" modelPersistenceProviderPackage="H2PersistenceProviderPackage" revision="2" schemaVersion="1030" universal=""><StyleDefinitions/><Networks/><PersistenceProviderPackages/><Mashups/><ScriptFunctionLibraries/><Projects/><Users/><DirectoryServices/><Widgets/><MediaEntities/><Groups/><PersistenceProviders/><NotificationContents/><ModelTags/><LocalizationTables/><Dashboards/><DataAnalysisDefinitions/><DataShapes/><Things/><Logs/><Authenticators/><ThingPackages/><NotificationDefinitions/><ApplicationKeys/><StateDefinitions><StateDefinition description="" documentationContent="" homeMashup="" lastModifiedDate="2018-10-03T04:37:29.406Z" name="Hum_State" projectName="" tags="Application:raspPi_HOW"><Owner name="Administrator" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTableDefinitions/><ConfigurationTables/><content><![CDATA[{
+  "stateDefinitions" : [ {
+    "comparator" : "<",
+    "defaultStyleDefinition" : "DefaultLEDStyle",
+    "defaultValue" : 45,
+    "description" : "",
+    "displayString" : "Normal",
+    "name" : ""
+  }, {
+    "comparator" : "<",
+    "defaultStyleDefinition" : "DefaultChartStyle15",
+    "defaultValue" : 50,
+    "description" : "",
+    "displayString" : "Warning",
+    "name" : ""
+  }, {
+    "defaultStyleDefinition" : "DefaultChartStyle3",
+    "defaultValue" : "",
+    "description" : "",
+    "displayString" : "High",
+    "name" : ""
+  } ],
+  "stateType" : "numeric"
+}]]></content><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, tags : updated&#10;" timestamp="2018-10-03T04:35:10.750Z" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="states : New Numeric State Definition : added, Default : updated&#10;" timestamp="2018-10-03T04:37:29.406Z" user="Administrator"/></ConfigurationChanges></StateDefinition><StateDefinition description="" documentationContent="" homeMashup="" lastModifiedDate="2018-10-03T02:22:58.562Z" name="LED_state" projectName="" tags="Application:raspPi_HOW"><Owner name="Administrator" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTableDefinitions/><ConfigurationTables/><content><![CDATA[{
+  "stateDefinitions" : [ {
+    "defaultStyleDefinition" : "",
+    "defaultValue" : "0",
+    "description" : "",
+    "displayString" : "OFF",
+    "name" : ""
+  }, {
+    "defaultStyleDefinition" : "",
+    "defaultValue" : "9",
+    "description" : "",
+    "displayString" : "ON",
+    "name" : ""
+  }, {
+    "defaultStyleDefinition" : "",
+    "description" : "",
+    "displayString" : "OFF",
+    "name" : ""
+  } ],
+  "stateType" : "string"
+}]]></content><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated&#10;states : New String/Value State Definition : added&#10;" timestamp="2018-10-03T02:12:00.885Z" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="states : Default : updated&#10;" timestamp="2018-10-03T02:15:53.654Z" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="states : Default : updated&#10;" timestamp="2018-10-03T02:22:10.192Z" user="Administrator"/><ConfigurationChange changeAction="MODIFY" changeReason="states : Default : updated&#10;" timestamp="2018-10-03T02:22:58.562Z" user="Administrator"/></ConfigurationChanges></StateDefinition></StateDefinitions><ThingTemplates/><ExtensionPackages/><Organizations/><Menus/><Resources/><DataTags/><ThingShapes/><Subsystems/></Entities>
